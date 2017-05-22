@@ -20,7 +20,7 @@ section {
 }
 
 .bg-1 {
-    height: 100vh;
+    height: 95vh;
 	background: url('./assets/Straffon542.jpg') no-repeat center center fixed;
     color:#fff;
     background-size:cover;
@@ -28,13 +28,14 @@ section {
   
 .bg-2 {
     height: 50vh;
-	background: url('./assets/Straffon049.jpg') no-repeat top center fixed;
+	background: url('./assets/Straffon735.jpg') no-repeat top center fixed;
     color:#fff;
     background-size:cover;
 }
 
 .bg-3 {
-	background: url('./assets/Straffon735.jpg') no-repeat bottom center fixed;
+    height: 75vh;
+	background: url('./assets/Straffon049.jpg') no-repeat bottom center fixed;
     color:#fff;
     background-size:cover;
 }
