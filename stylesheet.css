@@ -1,38 +1,47 @@
 body {
     padding-top: 50px;
+    background-color: #EEF9FF;
 }
+
 .divider {
     height:50px;
 }
 
 section {
-    height:50vh;
     padding-top:50px;
     padding-bottom:50px;
     overflow:auto;
 }
 
+.transparent-backing {
+    border-radius: 1em;
+    background-color: rgba(41,43,44, 0.5);
+    padding: 1em;
+}
+
 .bg-1 {
+    height: 100vh;
 	background: url('./assets/Straffon542.jpg') no-repeat center center fixed;
     color:#fff;
     background-size:cover;
 }
   
 .bg-2 {
-	background: url('./assets/example/bg_suburb.jpg') no-repeat top center fixed;
+    height: 50vh;
+	background: url('./assets/Straffon049.jpg') no-repeat top center fixed;
     color:#fff;
     background-size:cover;
 }
 
 .bg-3 {
-	background: url('./assets/example/bg_blueplane.jpg') no-repeat bottom center fixed;
+	background: url('./assets/Straffon735.jpg') no-repeat bottom center fixed;
     color:#fff;
     background-size:cover;
 }
 
 #footer {
     height: 60px;
-    background-color:#585858;
+    background-color:#292B2C;
     margin-top:50px;
     padding-top:20px;
     padding-bottom:20px;
@@ -42,3 +51,13 @@ section {
   color:#efefef;
 }
 
+#intro-text {
+    padding: 0 1.5em;
+    /*text-align: justify;*/
+}
+
+#intro-img {
+    padding: 0 1.5em;
+    width:100%;
+    height: 35%;
+}
